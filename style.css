@@ -9,6 +9,23 @@ html{
     flex-wrap: wrap;
   }
 
+  .navbar-nav { 
+    height: 80px; 
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+    text-align: center;
+  }
+  
+  .navbar-nav ul li {
+    color: #fff;
+    display: inline-block; 
+    height: 80px;
+    line-height: 80px; 
+    list-style: none;
+    padding: 0 50px;
+    transition: background .5s;
+  }
 
 /* footer section */
 
