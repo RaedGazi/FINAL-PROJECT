@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .container {
     display: flex;
     justify-content: space-between;
@@ -6,7 +5,6 @@
     flex-wrap: wrap;
   }
   
-=======
 * {background-color: #e7eef1;}
 
 /* footer section */
@@ -67,4 +65,3 @@
     margin-bottom: 0; /* Remove margin bottom */
   }
 
->>>>>>> 48094dab5f0d83f05e18ea04519abd7de170a7a5
