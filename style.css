@@ -2,6 +2,7 @@ html{
     background-color: #e7eef1;
 }
 
+  
 .container {
     display: flex;
     justify-content: space-between;
@@ -27,11 +28,14 @@ html{
     transition: background .5s;
   }
 
-      .img {
-        display: flex;
-        align-content: center;
-      }
- 
+
+  .button{
+    position: relative;
+    top:50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding-right: 10px ;
+  }
   
   /* footer section */
   
