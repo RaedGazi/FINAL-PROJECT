@@ -9,6 +9,18 @@ html {
       flex-direction: row;
       flex-wrap: wrap;
     }
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
     
     .navbar { 
         background-color: #e7eef1;
@@ -51,9 +63,7 @@ html {
         margin-right: auto;
         width: 50%;
       }
- 
-  
-  /* footer section */
+ /* footer section */
   
     footer {
       background-color: #16c196; /* Light green/blue background color */
@@ -111,3 +121,5 @@ html {
       font-size: 12px; /* Font size of the copyright notice */
       margin-bottom: 0; /* Remove margin bottom */
     }
+
+  
