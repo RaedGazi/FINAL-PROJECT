@@ -1,0 +1,49 @@
+ <!--Admin Page-->
+ <div>
+    <div class="container">
+        <h1 class="mt-5 mb-3">Administrative Page</h1>
+        <form id="adminForm">
+          <div class="mb-3">
+            <label for="supplier" class="form-label">Supplier Name</label>
+            <input type="text" class="form-control" id="supplier" name="supplier" placeholder="Add supplier name">
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name of Product</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Add the name of the product">
+          </div>
+          <div class="mb-3">
+            <label for="description" class="form-label">Description of Product</label>
+            <input type="text" class="form-control" id="description" placeholder="Add a brief description of product">
+          </div>
+          <div class="mb-3">
+            <label for="image" class="form-label">Photo of Product</label>
+            <input type="text" class="form-control" id="department" placeholder="Add photo of product">
+          </div>
+          <div class="mb-3">
+            <label for="quantity" class="form-label">Quantity Available</label>
+            <input type="number" class="form-control" id="quantity" placeholder="Add product quantity available">
+          </div>
+          <div class="mb-3">
+            <label for="price" class="form-label">Price of Product</label>
+            <input type="number" class="form-control" id="price" placeholder="Add the price of the product">
+          </div>
+          <button type="submit" class="btn btn-primary">Add New Procuct</button>
+        </form>
+        <table class="table table-striped mt-5">
+          <thead>
+            <tr>
+            <th>Supplier Name</th>
+            <th>Name of Product</th>
+            <th>Description of Product</th>
+            <th>Photo of Product</th>
+            <th>Quantity Available</th>
+            <th>Price of Product</th>
+            </tr>
+          </thead>
+          <tbody id="product-table">
+            <!-- <tr>'s will be generated in Javascript and added here using the DOM -->
+          </tbody>
+        </table>
+      </div>
+</div>
+
