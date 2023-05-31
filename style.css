@@ -1,4 +1,14 @@
-* {background-color: #e7eef1;}
+html{
+    background-color: #e7eef1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
 
 /* footer section */
 
@@ -57,4 +67,5 @@
     font-size: 12px; /* Font size of the copyright notice */
     margin-bottom: 0; /* Remove margin bottom */
   }
+
 
