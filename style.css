@@ -10,11 +10,12 @@ html{
   }
 
   .navbar-nav { 
-    height: 80px; 
+    height: 50px; 
     width: 100%;
     position: fixed;
     z-index: 500;
     text-align: center;
+    background-color: #e7eef1;
   }
   
   .navbar-nav ul li {
@@ -23,7 +24,6 @@ html{
     height: 80px;
     line-height: 80px; 
     list-style: none;
-    padding: 0 50px;
     transition: background .5s;
   }
 
