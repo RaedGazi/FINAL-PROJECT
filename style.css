@@ -73,6 +73,9 @@ html {
         width: 50%;
       }
  
+      section .container {
+        padding: 50px;
+      }
   
 /* footer section */
 
