@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Body background color */
+body {
+    background-color: lightgreen;
+  }
+  
+  /* Header styles */
+  h1 {
+    color: magenta;
+  }
+  
+  /* Link styles */
+  a {
+    color: blue;
+  }
+  
+  /* Container background color */
+  .container {
+    background-color: lightblue;
+  }
+  
+  /* Box styles */
+  .box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* CEO box */
+  .ceo-box {
+    background-color: lightgreen;
+  }
+  
+  /* CTO box */
+  .cto-box {
+    background-color: lightblue;
+  }
+  
+  /* President box */
+  .president-box {
+    background-color: lightgreen;
+  }
+  
+  /* Company Secretary box */
+  .secretary-box {
+    background-color: lightblue;
+  }
+  
+  /* Bio text color */
+  .bio {
+    color: black;
+  }
+  .boxCo{
+    border-radius: 50%;
+  }
