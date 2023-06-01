@@ -1,56 +1,56 @@
 footer {
-    background-color: #16c196; /* Light green/blue background color */
-    padding: 40px 0; /* Adjust the padding as per your preference */
-    text-align: center;
-  }
+  background-color: #16c196; /* Light green/blue background color */
+  padding: 40px 0; /* Adjust the padding as per your preference */
+  text-align: center;
+}
 
-  footer h5 {
-    color: #e30808; /* Heading color */
-    font-size: 18px; /* Heading font size */
-    margin-bottom: 20px; /* Space between headings and content */
-  }
+footer h5 {
+  color: #e30808; /* Heading color */
+  font-size: 18px; /* Heading font size */
+  margin-bottom: 20px; /* Space between headings and content */
+}
 
-  footer p {
-    color: #e7eef1; /* Paragraph text color */
-    font-size: 14px; /* Paragraph font size */
-    margin-bottom: 10px; /* Space between paragraphs */
-  }
+footer p {
+  color: #e7eef1; /* Paragraph text color */
+  font-size: 14px; /* Paragraph font size */
+  margin-bottom: 10px; /* Space between paragraphs */
+}
 
-  footer a {
-    color: black; /* Link text color */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.3s; /* Smooth color transition on hover */
-  }
+footer a {
+  color: black; /* Link text color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
 
-  footer a:hover {
-    color: #555; /* Link text color on hover */
-  }
+footer a:hover {
+  color: #555; /* Link text color on hover */
+}
 
-  footer form .form-control {
-    width: 100%; /* Set the width of the input field */
-  }
+footer form .form-control {
+  width: 100%; /* Set the width of the input field */
+}
 
-  footer form .btn-primary {
-    margin-top: 10px; /* Space between input field and button */
-  }
+footer form .btn-primary {
+  margin-top: 10px; /* Space between input field and button */
+}
 
-  footer ul {
-    list-style: none; /* Remove bullet points */
-    padding-left: 0; /* Remove left padding */
-    margin-bottom: 20px; /* Space between lists */
-  }
+footer ul {
+  list-style: none; /* Remove bullet points */
+  padding-left: 0; /* Remove left padding */
+  margin-bottom: 20px; /* Space between lists */
+}
 
-  footer ul li {
-    margin-bottom: 10px; /* Space between list items */
-  }
+footer ul li {
+  margin-bottom: 10px; /* Space between list items */
+}
 
-  footer hr {
-    border-top-color: #2fe70a; /* Horizontal rule color */
-    margin: 30px 0; /* Space above and below horizontal rule */
-  }
+footer hr {
+  border-top-color: #2fe70a; /* Horizontal rule color */
+  margin: 30px 0; /* Space above and below horizontal rule */
+}
 
-  footer p {
-    color: #0544d9; /* Text color of the copyright notice */
-    font-size: 12px; /* Font size of the copyright notice */
-    margin-bottom: 0; /* Remove margin bottom */
-  }
+footer p {
+  color: #0544d9; /* Text color of the copyright notice */
+  font-size: 12px; /* Font size of the copyright notice */
+  margin-bottom: 0; /* Remove margin bottom */
+}
