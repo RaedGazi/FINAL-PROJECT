@@ -3,6 +3,10 @@ html {
     width: 100%;
   }
   
+  #title{
+    background-color: #16c196;
+
+  }
   .container {
       display: flex;
       justify-content: space-between;
