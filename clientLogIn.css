@@ -34,6 +34,35 @@
     
     text-align: center;
 }
+
+
+.navbar { 
+  background-color: #e7eef1;
+  height: 80px; 
+  width: 100%;
+  position: fixed;
+  z-index: 500
+}
+
+.navbar ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.navbar ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 50px;
+  transition: background .5s;
+}
+
+
+
 footer{
     text-align: center;
     background-color: #4CAF50;
