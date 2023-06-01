@@ -7,6 +7,13 @@ html {
     background-color: #16c196;
 
   }
+  .oval-img{
+   
+    padding-bottom: 50px;
+    
+    border-radius: 50%; /* Apply a circular border-radius to create an oval shape */
+    overflow: hidden; /* Hide any overflow outside the oval shape */
+  }
   .container {
       display: flex;
       justify-content: space-between;
