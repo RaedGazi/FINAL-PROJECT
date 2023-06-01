@@ -1,7 +1,6 @@
 html {
   height: 100%;
   width: 100%;
-  background-color: #419eb9;
 }
 
 #title{
@@ -18,6 +17,14 @@ html {
   
   #card {
     background-color: #419eb9;
+    padding: 50px;
+    text-align: center;
+  }
+
+  #equipment {
+    background-color:#16c196;
+    padding: 50px;
+    text-align: center;
   }
   
   .navbar { 
@@ -71,14 +78,7 @@ html {
 /* footer section */
 
   footer {
-
     background-color: #419eb9; /* Light green/blue background color */
-
-
-
-    background-color: #419eb9; /* Light green/blue background color */
-
-
     padding: 40px 0; /* Adjust the padding as per your preference */
     text-align: center;
   }
@@ -129,11 +129,6 @@ html {
   padding-left: 70px;
 }
 
-  .py-5{
-
+ footer .py-5{
     background-color: #419eb9;
-
-
-    background-color: #419eb9;
-
   }
