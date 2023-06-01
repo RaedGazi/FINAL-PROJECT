@@ -14,7 +14,7 @@ html {
    
     padding-bottom: 50px;
     
-    border-radius: 50%; /* Apply a circular border-radius to create an oval shape */
+    border-radius: 0%; /* Apply a circular border-radius to create an oval shape */
     overflow: hidden; /* Hide any overflow outside the oval shape */
   }
   .container {
