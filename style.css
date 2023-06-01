@@ -1,57 +1,56 @@
 html {
+  height: 100%;
+  width: 100%;
+}
 
-    height: 100%;
-    width: 100%;
-    background-color: #419eb9;
+#title{
+  background-color: #16c196;
+  z-index: 500;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   
-  #title{
-    background-color: #16c196;
-    z-index: 500;
+  #card {
+    background-color: #419eb9;
+    padding: 50px;
+    text-align: center;
+  }
 
+  #equipment {
+    background-color:#16c196;
+    padding: 50px;
+    text-align: center;
   }
-  .oval-img{
-   
-    padding-bottom: 50px;
-    
-    border-radius: 0%; /* Apply a circular border-radius to create an oval shape */
-    overflow: hidden; /* Hide any overflow outside the oval shape */
-  }
-  .container {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: row;
-      flex-wrap: wrap;
+  
+  .navbar { 
+      background-color: #e7eef1;
+      height: 80px; 
+      width: 100%;
+      position: fixed;
+      z-index: 500
     }
     
-    #card {
-      background-color: #419eb9;
+    .navbar ul {
+      height: 80px;
+      list-style: none;
+      margin: 0 auto; 
+      padding: 0;
     }
     
-    .navbar { 
-        background-color: #e7eef1;
-        height: 80px; 
-        width: 100%;
-        position: fixed;
-        z-index: 500
-      }
-      
-      .navbar ul {
-        height: 80px;
-        list-style: none;
-        margin: 0 auto; 
-        padding: 0;
-      }
-      
-      .navbar ul li {
-        color: #fff;
-        display: inline-block; 
-        height: 80px;
-        line-height: 80px; 
-        list-style: none;
-        padding: 0 50px;
-        transition: background .5s;
-      }
+    .navbar ul li {
+      color: #fff;
+      display: inline-block; 
+      height: 80px;
+      line-height: 80px; 
+      list-style: none;
+      padding: 0 50px;
+      transition: background .5s;
+    }
 
       .button {
         position: relative;
@@ -76,19 +75,12 @@ html {
  
   
 /* footer section */
-  
-footer {
 
-  background-color: #419eb9; /* Light green/blue background color */
-
-
-
-  background-color: #419eb9; /* Light green/blue background color */
-
-
-  padding: 40px 0; /* Adjust the padding as per your preference */
-  text-align: center;
-}
+  footer {
+    background-color: #419eb9; /* Light green/blue background color */
+    padding: 40px 0; /* Adjust the padding as per your preference */
+    text-align: center;
+  }
 
 footer h5 {
   color: #e30808; /* Heading color */
@@ -136,14 +128,9 @@ padding-right: 65px;
 padding-left: 70px;
 }
 
-.py-5{
-
-  background-color: #419eb9;
-
-
-  background-color: #419eb9;
-
-}
+ footer .py-5{
+    background-color: #419eb9;
+  }
 
 
 
