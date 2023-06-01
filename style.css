@@ -60,7 +60,10 @@ html {
   /* footer section */
   
     footer {
-      background-color: #16c196; /* Light green/blue background color */
+
+      background-color: #419eb9; /* Light green/blue background color */
+
+
       padding: 40px 0; /* Adjust the padding as per your preference */
       text-align: center;
     }
@@ -111,5 +114,7 @@ html {
   }
   
     .py-5{
-      background-color: #16c196;
+
+      background-color: #419eb9;
+
     }
