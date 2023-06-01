@@ -19,12 +19,16 @@ html {
     background-color: #419eb9;
     padding: 50px;
     text-align: center;
+    background: url("./images/bg3.png") center center;
+    background-size: cover;
   }
 
   #equipment {
     background-color:#16c196;
     padding: 50px;
     text-align: center;
+    background: url("./images/bg2.png") center center;
+    background-size: cover;
   }
   
   .navbar { 
@@ -76,7 +80,41 @@ html {
       section .container {
         padding: 50px;
       }
+
+      section .container2 {
+        padding: 500px;
+        text-align: center;
+      }
+
+      section .container2 .display-5 {
+        text-align: center;
+        align-items: center;
+      }
   
+
+      .jumbotron {
+        background-size: cover;
+        height: 1500px;
+        background: url("./images/bg2.png") center center;
+        background-size: cover;
+      }
+
+      .jumbotron .container {
+        position: relative;
+        top: 400px;
+        bottom: 200px;
+      }
+      
+      .jumbotron h1 {
+        color: #fff;
+        text-align: left; 
+      }
+      
+ 
+      
+      
+
+
 /* footer section */
 
   footer {
