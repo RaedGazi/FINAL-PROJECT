@@ -3,10 +3,18 @@ html {
     width: 100%;
   }
   
-  #title{
-    background-color: #16c196;
+  .container {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
 
+html {
+    height: 100%;
+    width: 100%;
   }
+  
   .container {
       display: flex;
       justify-content: space-between;
@@ -55,9 +63,7 @@ html {
         margin-right: auto;
         width: 50%;
       }
- 
-  
-  /* footer section */
+ /* footer section */
   
     footer {
       background-color: #16c196; /* Light green/blue background color */
@@ -105,11 +111,15 @@ html {
       margin-bottom: 10px; /* Space between list items */
     }
   
-  
-  .input-group{
-    padding-right: 1px;
-  }
-  
-    .py-5{
-      background-color: #16c196;
+    footer hr {
+      border-top-color: #2fe70a; /* Horizontal rule color */
+      margin: 30px 0; /* Space above and below horizontal rule */
     }
+  
+    footer p {
+      color: #0544d9; /* Text color of the copyright notice */
+      font-size: 12px; /* Font size of the copyright notice */
+      margin-bottom: 0; /* Remove margin bottom */
+    }
+
+  
