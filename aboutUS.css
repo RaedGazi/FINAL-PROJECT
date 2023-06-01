@@ -7,7 +7,17 @@ body {
   
   /* Header styles */
   h1 {
-    color: magenta;
+    color: rgb(46, 23, 246);
+  }
+  h2{
+    color: rgb(251, 18, 239);
+  }
+  h3{
+    color: rgb(2, 2, 80);
+  }
+  p{
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
   }
   
   /* Link styles */
