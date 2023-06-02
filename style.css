@@ -70,7 +70,7 @@ html {
         transform: translateY(-50%);
         border: none;
         background-color: #e7eef1;
-       
+        padding:0%
       }
 
       .btn_btn-primary {
@@ -181,5 +181,8 @@ padding-left: 70px;
     background-color: #419eb9;
   }
 
-
+.carousel-inner {
+  background-color: black;
+  
+}
 

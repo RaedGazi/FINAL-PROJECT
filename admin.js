@@ -16,8 +16,7 @@ prodArr.forEach(prod => {
 let newRow = document.createElement("tr");
 newRow.setAttribute("data-id", prod.id)
   newRow.innerHTML =
-  `<td>${prod.supplier}</td>
-  <td>${prod.name}</td>
+  `<td>${prod.name}</td>
   <td>${prod.description}</td>
   <td>${prod.photo}</td>
   <td>${prod.quantity}
@@ -36,7 +35,6 @@ console.log(prodArr)
       event.preventDefault()
       //test: console.log("hello")
       
-      const prodSupplier = document.getElementById("prodSupplier").value;
       const prodName = document.getElementById("prodName").value;
       const prodDescription = document.getElementById("prodDescription").value;
       const prodPhoto = document.getElementById("prodPhoto").value;
@@ -46,7 +44,7 @@ console.log(prodArr)
       
       //add product which creates an ojbect and pushes into prodArr so we see that object in the Array
       //shows id going up by 1 in the console
-      prodController.addProduct(prodSupplier, prodName, prodDescription, prodPhoto, prodQuantity, prodPrice)
+      prodController.addProduct(prodName, prodDescription, prodPhoto, prodQuantity, prodPrice)
       prodController.setLocalStorage()
       console.log(prodController.prodArr)
       displayProd()
@@ -54,3 +52,5 @@ console.log(prodArr)
     });
   
     displayProd()
+
+    

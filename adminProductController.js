@@ -13,9 +13,8 @@ class ProdController {
     //assign ID to product and put in the array so need actions:
     //create object and add to array, takes in your event listener from admin.js
 
-    addProduct(supplier, name, description, photo, quantity, price) {
+    addProduct(name, description, photo, quantity, price) {
         const prodObj = {
-            supplier,
             name,
             description,
             photo,
