@@ -57,12 +57,11 @@ html {
      
     }
 
-    .image {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
+    #boof {
+      position: relative;
+      left: 45%;
     }
+
 /* footer section */
 
   footer {
