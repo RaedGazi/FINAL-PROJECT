@@ -80,3 +80,8 @@ footer p {
   font-size: 12px; /* Font size of the copyright notice */
   margin-bottom: 0; /* Remove margin bottom */
 }
+.d-block{
+  width: 80%;
+  padding-inline: 30;
+  padding-right: 20em;
+}
