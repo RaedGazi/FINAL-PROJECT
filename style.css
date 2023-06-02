@@ -4,7 +4,7 @@ html {
 }
 
 #title{
-  background-color: #16c196;
+
   z-index: 500;
 
 }
@@ -13,22 +13,29 @@ html {
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
   }
   
   #card {
-    background-color: #419eb9;
     padding: 50px;
     text-align: center;
     background: url("./images/bg3.png") center center;
     background-size: cover;
   }
 
+  #card h1 {
+    color: white;
+  }
+
   #equipment {
-    background-color:#16c196;
     padding: 50px;
     text-align: center;
     background: url("./images/bg2.png") center center;
     background-size: cover;
+  }
+
+  #equipment h1 {
+    color: white;
   }
   
   .navbar { 
@@ -95,7 +102,7 @@ html {
       .jumbotron {
         background-size: cover;
         height: 1500px;
-        background: url("./images/bg2.png") center center;
+        background: url("./images/bg1.png") center center;
         background-size: cover;
       }
 
@@ -118,13 +125,14 @@ html {
 /* footer section */
 
   footer {
-    background-color: #419eb9; /* Light green/blue background color */
     padding: 40px 0; /* Adjust the padding as per your preference */
     text-align: center;
+    background: url("./images/bg1.png") center center;
+    background-size: cover;
   }
 
 footer h5 {
-  color: #e30808; /* Heading color */
+  color:white; /* Heading color */
   font-size: 18px; /* Heading font size */
   margin-bottom: 20px; /* Space between headings and content */
 }
