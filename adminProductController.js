@@ -1,3 +1,4 @@
+//similar to Robert's gearController.js
 //need this to set product, and have an object to work with that has all the logic for your product
 class ProdController {
     constructor() {
@@ -13,13 +14,13 @@ class ProdController {
     //assign ID to product and put in the array so need actions:
     //create object and add to array, takes in your event listener from admin.js
 
-    addProduct(name, description, photo, quantity, price) {
+    addProduct(photo, name, description, price, quantity) {
         const prodObj = {
+            photo,
             name,
             description,
-            photo,
-            quantity,
             price,
+            quantity,
             //so we can add more products we use id:... to have the ID increase by1 because local storage doesn't create IDs:
             id: this.currentID++
         }

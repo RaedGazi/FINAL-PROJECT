@@ -58,6 +58,10 @@
             <h1 class="mt-5 mb-3">Administrative Page</h1>
             <form id="adminForm">
               <div class="mb-3">
+                <label for="prodPhoto" class="form-label">URL of Product</label>
+                <input type="url" class="form-control" id="prodPhoto" placeholder="Add url of product photo">
+              </div>
+              <div class="mb-3">
                 <label for="prodName" class="form-label">Name of Product</label>
                 <input type="text" class="form-control" id="prodName"  placeholder="Add the name of the product">
               </div>
@@ -66,16 +70,12 @@
                 <input type="text" class="form-control" id="prodDescription" placeholder="Add a brief description of product">
               </div>
               <div class="mb-3">
-                <label for="prodPhoto" class="form-label">Photo of Product</label>
-                <input type="text" class="form-control" id="prodPhoto" placeholder="Add photo of product">
+                <label for="prodPrice" class="form-label">Price of Product</label>
+                <input type="text" class="form-control" id="prodPrice" placeholder="No dollar signs">
               </div>
               <div class="mb-3">
                 <label for="prodQuantity" class="form-label">Quantity Available</label>
                 <input type="number" class="form-control" id="prodQuantity" placeholder="Add product quantity available">
-              </div>
-              <div class="mb-3">
-                <label for="prodPrice" class="form-label">Price of Product</label>
-                <input type="number" class="form-control" id="prodPrice" placeholder="Add the price of the product">
               </div>
               <button type="submit" class="btn btn-primary">Add New Product</button>
             </form>
@@ -83,15 +83,15 @@
             <table class="table table-striped mt-5">
               <thead>
                 <tr>
+                <th>Photo of Product</th>
                 <th>Name of Product</th>
                 <th>Description of Product</th>
-                <th>Photo of Product</th>
-                <th>Quantity Available</th>
                 <th>Price of Product</th>
+                <th>Quantity Available</th>
                 </tr>
               </thead>
               <tbody id="prodRows">
-                <!-- <tr>'s will be generated in Javascript and added here using the DOM -->
+                <!-- <tr>'s will be generated in Javascript and added here using the DOM and display in the table on the AdminPage -->
 <!--               <tr scope="row">
                 <td>Test</td>
                 <td>Test</td>
@@ -101,18 +101,19 @@
                 <td>Test</td>
               </tr> -->
                 </tbody>
-            </table>
+              </table>
+            </div>
           </div>
-    </div>
-
-    
-    <footer>
-        <div>
-            <a href="index.html">Back to Home</a>
-        </div>
-    </footer>
+          
+          <script src="adminProductController.js"></script>
+          <script src="admin.js"></script>
+          
+          <footer>
+            <div>
+              <a href="index.html">Back to Home</a>
+            </div>
+          </footer>
+          
  </body>
  </html>
  
- <script src="adminProductController.js"></script>
- <script src="admin.js"></script>
