@@ -70,7 +70,7 @@ html {
         transform: translateY(-50%);
         border: none;
         background-color: #e7eef1;
-        padding:0%
+        padding:0;
       }
 
       .btn_btn-primary {
@@ -84,6 +84,19 @@ html {
         width: 50%;
       }
  
+  /* CSS styles for the cart */
+.cart {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: none; /* hide the cart by default */
+}
+
+/* Add the "show" class to display the cart */
+.cart.show {
+  display: block;
+}
+
       section .container {
         padding: 50px;
       }
