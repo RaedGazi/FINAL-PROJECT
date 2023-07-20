@@ -205,8 +205,10 @@
   <div id="card" >
     <h1>CLINIC ESSENTIALS</h1>
     <div class="container" id="card" >
-      <!--essentialsCards is the ID for adminSupplies.js-->
-      <div id="essentialsCards"></div>
+      <!--essentialsCards -->
+      <div id="displayProduct" class="row">
+      <!-- Your cards will display here when you make your request for essentialsCards -->
+      </div>
       <!--GOWN-->
       <div class="card" style="width: 18rem;">
         <img src="https://images.ciamedical.com/image/data/manual_import/LdYdg3mu68gTogRU-320x320.jpg"
@@ -289,12 +291,12 @@
 
 
   
-  <!--EQUIPMENT-->
+  <!--EQUIPMENT CARDS START-->
   <div id="equipment"  id="equipmentCards">
     <h1>CRITICAL EQUIPMENT</h1>
     <!--for Popular items-->
     <div class="container" id="equipment">
-      <!--equipmentCards is the ID for adminSupplies.js-->
+      <!--equipmentCards is the ID for index.js-->
       <div id="equipmentCards"></div>
       <!--GOWN-->
       <div class="card" style="width: 18rem;">
@@ -358,10 +360,10 @@
 
 
 
-  <!---BOOTSTRAP AND JAVASCRIPT START-->
+  <!---BOOTSTRAP AND JAVASCRIPT links-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="adminProductController.js"></script>
-  <script src="adminSupplies.js"></script>
+  <script src="ProductController.js"></script>
+  <script src="admin.js"></script>
   
 
 
@@ -422,7 +424,6 @@
 </footer>
 <!--FOOTER END-->
 
-<script src="index.js"></script>
 <script src="cart.js"></script>
 </body>
 </html>
